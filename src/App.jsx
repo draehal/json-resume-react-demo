@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Helmet } from 'react-helmet-async';
 import Resume from './Resume'
 import Basics from './Basics'
+import Summary from './Summary'
 import Work from './Work'
 import Education from './Education'
 import Skills from './Skills'
@@ -18,6 +19,10 @@ class App extends Component {
                 </Helmet>
                 <Basics items={Resume.basics}/>
                 <div className="container">
+                    <div className="col-12">
+                        <Summary text={Resume.basics.summary}/>
+                    </div>
+                    <br/>
                     <div className="col-12">
                         <Work items={Resume.work}/>
                     </div>

@@ -53,9 +53,6 @@ class Basics extends Component {
                         {this.iconLink("Phone Number", this.props.items.phone, "tel:", "fa-solid fa-phone")}
                         {this.profileLinks()}
                         </div>
-                        <div className="col-md-8">
-                            <h3 className="text-muted float-md-end">{this.props.items.summary}</h3>
-                        </div>
                 </div>
             </div>
         );

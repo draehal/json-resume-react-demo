@@ -1,94 +1,226 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
+    "name": "Devon James Raehal",
+    "label": "Senior Software Engineer and Software Architect",
     "picture": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://johndoe.com",
-    "summary": "A summary of John Doe...",
+    "email": "draehal@gmail.com",
+    "phone": "970-381-6213",
+    "website": "",
+    "summary": "Senior Software Engineer and Software Architect with 20+ years of experience designing and building full-stack software systems and cloud-native platforms. Experienced delivering end-to-end product features spanning frontend interfaces, backend services, distributed data pipelines, and Kubernetes deployments. Strong background in Java, Spring Boot, Angular, OpenTelemetry observability systems, and scalable data platforms. Proven ability to own complex features from design through production while collaborating with product managers, designers, and global engineering teams.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "5631 W 25th St",
+      "postalCode": "80634",
+      "city": "Greeley",
       "countryCode": "US",
-      "region": "California"
+      "region": "CO"
     },
-    "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "http://twitter.com/john"
-    }]
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "devonraehal",
+        "url": "https://www.linkedin.com/in/devonraehal/"
+      }
+    ]
   },
-  "work": [{
-    "company": "Company",
-    "position": "President",
-    "website": "http://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "website": "http://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "University",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "gpa": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "website": "http://publication.com",
-    "summary": "Description..."
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "Javascript"
-    ]
-  }],
-  "languages": [{
-    "name": "English",
-    "level": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference..."
-  }]
-
+  "work": [
+    {
+      "company": "OpenText (HPE Software -> Micro Focus -> OpenText)",
+      "position": "Staff / Lead Software Engineer & Product Architect",
+      "website": "",
+      "startDate": "2016-05-01",
+      "endDate": "2025-12-01",
+      "summary": "Designed and implemented observability and monitoring capabilities for the OpenText OpsBridge platform, a large-scale enterprise operations management system.",
+      "highlights": [
+        "Designed and implemented OpenTelemetry ingestion and processing integrations used to collect metrics, logs, and traces across enterprise deployments.",
+        "Implemented log templating compression using the Drain3 algorithm, reducing OpenSearch storage requirements by 40 to 60 percent while enabling higher-level anomaly detection and automated log analysis.",
+        "Designed a data enrichment architecture integrating OpenTelemetry telemetry with OpenText UCMDB topology data, enabling correlation between infrastructure, services, and application events.",
+        "Developed Java Spring Boot APIs connecting Angular web interfaces with OpenSearch, Postgres, and Vertica analytics backends.",
+        "Built and maintained Kubernetes-based deployment pipelines, including Docker containers and Helm charts used within the OpsBridge platform.",
+        "Migrated a performance-constrained Python telemetry service to Go, improving throughput and reducing pipeline latency.",
+        "Delivered production features spanning Angular UI components, Spring Boot backend services, and distributed data pipelines.",
+        "Collaborated with product management and design teams to refine user workflows and deliver usable monitoring and analytics features.",
+        "Implemented APIs supporting internal services and external product integrations.",
+        "Partnered with product managers to translate product requirements into technical architecture and engineering deliverables.",
+        "Defined feature specifications and created detailed user stories with acceptance criteria used by engineering teams.",
+        "Led a team of 10 engineers across the U.S. and India, coordinating development across multiple SAFe program increments while maintaining consistent delivery and quality goals.",
+        "Modernized the OpenText SiteScope monitoring platform by replacing legacy Java Applet interfaces with Angular applications and Spring Boot services.",
+        "Improved deployment automation and platform security through Kubernetes infrastructure improvements."
+      ]
+    },
+    {
+      "company": "KForce (Contractor to Hewlett-Packard Enterprise)",
+      "position": "Scrum Team Lead",
+      "website": "",
+      "startDate": "2015-11-01",
+      "endDate": "2016-05-01",
+      "summary": "Led a contractor team supporting Hewlett-Packard Enterprise initiatives in Fort Collins, Colorado.",
+      "highlights": [
+        "Led a team of six developers in Agile processes.",
+        "Developed documentation and training materials.",
+        "Led the inception of a technology initiative to show corporate spend on cloud services such as Amazon AWS and Microsoft Azure."
+      ]
+    },
+    {
+      "company": "iNapogee (formerly Mercury Intelligence Systems, Paragon Dynamics Inc.)",
+      "position": "Senior Software Engineer",
+      "website": "",
+      "startDate": "2009-03-01",
+      "endDate": "2015-10-01",
+      "summary": "Built and modernized full-stack software systems for GIS, compliance, auditing, and web services workloads.",
+      "highlights": [
+        "Developed GIS software frontends using Java, AngularJS, Google Closure API, and Adobe Flex.",
+        "Modernized the software stack by converting Adobe Flex applications to HTML5.",
+        "Designed a Logstash-based statistics collection system for Apache HTTP Server.",
+        "Developed government compliance and auditing software in Java.",
+        "Created RESTful web services using Java technologies."
+      ]
+    },
+    {
+      "company": "Raytheon",
+      "position": "Software Engineer III",
+      "website": "",
+      "startDate": "2003-11-01",
+      "endDate": "2009-03-01",
+      "summary": "Delivered Java-based user interface and service solutions for spacecraft command and control systems.",
+      "highlights": [
+        "Led development and architecture for the User Interfaces IPT.",
+        "Developed GUI solutions using NetBeans, Java, and Spring-based services.",
+        "Created design documentation to meet subsystem requirements.",
+        "Developed Java-based solutions for spacecraft command and control systems."
+      ]
+    },
+    {
+      "company": "VMC Consulting (Contractor to Hewlett-Packard)",
+      "position": "Software Engineer Consultant",
+      "website": "",
+      "startDate": "2003-02-01",
+      "endDate": "2003-08-01",
+      "summary": "Contributed UI and web services work for Hewlett-Packard software initiatives.",
+      "highlights": [
+        "Developed a Java Swing-based GUI for HP Library and Tape Tools (LTT).",
+        "Implemented SOAP web services for embedded Linux OS using C++ and Java."
+      ]
+    },
+    {
+      "company": "Hewlett-Packard Company",
+      "position": "Software Engineer I",
+      "website": "",
+      "startDate": "2001-06-01",
+      "endDate": "2003-12-01",
+      "summary": "Worked on Java-based storage and discovery software prototypes and product components.",
+      "highlights": [
+        "Researched and developed Java WBEM/CIM disk provisioning solutions.",
+        "Developed discovery code and emulators for HP Utility Data Center.",
+        "Designed Java prototypes for OpenView Storage Area Manager."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Colorado State University",
+      "area": "Computer Science",
+      "studyType": "Hours toward Master of Computer Science",
+      "startDate": "2011-08-01",
+      "endDate": "2013-12-01",
+      "courses": [
+        "Fort Collins, CO"
+      ]
+    },
+    {
+      "institution": "University of Northern Colorado",
+      "area": "Mathematics",
+      "studyType": "Bachelor of Arts",
+      "startDate": "1997-08-01",
+      "endDate": "2001-12-01",
+      "courses": [
+        "Emphasis: Computer Science",
+        "Minor: Physics",
+        "Award: 1999 Outstanding Computer Science Student Award"
+      ]
+    },
+    {
+      "institution": "Aims Community College",
+      "area": "Liberal Arts",
+      "studyType": "Associate of Science",
+      "startDate": "1993-08-01",
+      "endDate": "1995-07-01",
+      "courses": [
+        "Greeley, CO"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Outstanding Computer Science Student Award",
+      "date": "1999-01-01",
+      "awarder": "University of Northern Colorado",
+      "summary": "Recognized as the 1999 Outstanding Computer Science Student."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Master",
+      "keywords": [
+        "Java",
+        "JavaScript",
+        "Python",
+        "C++",
+        "Go"
+      ]
+    },
+    {
+      "name": "Frameworks and Platforms",
+      "level": "Master",
+      "keywords": [
+        "Spring",
+        "Spring Boot",
+        "AngularJS",
+        "Angular",
+        "OpenTelemetry",
+        "Kubernetes",
+        "Helm",
+        "Jenkins"
+      ]
+    },
+    {
+      "name": "Data and Backend Systems",
+      "level": "Advanced",
+      "keywords": [
+        "REST APIs",
+        "Apache",
+        "Logstash",
+        "Apache Accumulo",
+        "OpenText Vertica",
+        "Postgres",
+        "OpenSearch",
+        "Full-Stack Development"
+      ]
+    },
+    {
+      "name": "Tools and Delivery",
+      "level": "Advanced",
+      "keywords": [
+        "Git",
+        "Maven",
+        "NPM",
+        "Docker",
+        "IntelliJ IDEA",
+        "DevOps",
+        "Agile",
+        "SCRUM",
+        "SAFe",
+        "Test-Driven Development"
+      ]
+    },
+    {
+      "name": "Citizenship and Clearance",
+      "level": "Advanced",
+      "keywords": [
+        "U.S. Citizen",
+        "TS/SCI with CI and Full Scope",
+        "Expired 2017"
+      ]
+    }
+  ]
 }
