@@ -18,7 +18,8 @@
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "preview:lan": "vite preview --host 0.0.0.0 --port 4173 --strictPort"
+    "preview:lan": "vite preview --host 0.0.0.0 --port 4173 --strictPort",
+    "preview:prod": "vite preview --host 0.0.0.0 --port 8080 --strictPort"
   },
   "browserslist": {
     "production": [
